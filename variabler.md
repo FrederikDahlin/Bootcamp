@@ -33,4 +33,7 @@ Her har jeg lavet variablet *navn* som jeg kalder frem i console.
     ```
 1. Array
 
-    Array er en række værdier 
+    Array er en række værdier sat i en variabel.
+    ```javascript
+        var frugter = ["Pære", "Æble", "Banan"];
+    ```
