@@ -1,8 +1,18 @@
-let boolean = false;
+// let boolean = false;
 
-if(boolean == true) {
-    console.log("Hej verden");
+// if(boolean == true) {
+//     console.log("Hej verden");
+// }
+// else {
+//     console.log("Nej");
+// }
+
+let tal = 3;
+console.log(tal)
+
+if(tal > 5) {
+    console.log("Højere end 5");
 }
 else {
-    console.log("Nej");
+    console.log("Lavere end 5");
 }
