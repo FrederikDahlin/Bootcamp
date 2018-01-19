@@ -7,6 +7,11 @@
 // let byNavn = "Roskilde";
 // console.log(byNavn);
 
+// let x = 5;
+// let y = 10;
+// console.log(x + y)
+
 let x = 5;
 let y = 10;
-console.log(x + y)
+let z = x + y;
+console.log(z)
