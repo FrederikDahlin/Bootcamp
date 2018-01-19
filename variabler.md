@@ -12,16 +12,19 @@ Her har jeg lavet variablet *navn* som jeg kalder frem i console.
 
 
 1. String
-String er en verdi i en variabel
-```javascript
-    var byNavn = "Roskilde"
-```
-I dette eksempel er string Roskilde.
+
+    String er en verdi i en variabel
+    ```javascript
+        var byNavn = "Roskilde"
+    ```
+    I dette eksempel er string Roskilde.
 1. Number
-Number er også en verdi i en variabel
-```javascript
-    var alder = 20;
-```
-Number er dog ikke i en string. For at bruge tal skal det stå uden string.
+
+    Number er også en verdi i en variabel
+    ```javascript
+        var alder = 20;
+    ```
+    Number er dog ikke i en string. For at bruge tal skal det stå uden string.
 1. Boolean
-Idk.
+
+    Idk.
