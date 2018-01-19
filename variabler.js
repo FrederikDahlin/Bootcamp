@@ -28,8 +28,10 @@
 // let prisMedMoms2 = prisUdenMoms / moms;
 // console.log(prisMedMoms2);
 
-let forste = 10;
-let anden = 20;
-anden = forste;
-forste = forste+forste;
+let forste = "10";
+let anden = "20";
+
+let byt = forste;
+forste = anden;
+anden = byt;
 console.log(forste, anden);
