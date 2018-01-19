@@ -4,5 +4,9 @@
 // let alder = 20;
 // console.log(alder);
 
-let byNavn = "Roskilde";
-console.log(byNavn);
+// let byNavn = "Roskilde";
+// console.log(byNavn);
+
+let x = 5;
+let y = 10;
+console.log(x + y)
