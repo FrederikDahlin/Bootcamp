@@ -6,4 +6,7 @@ let frugter = ["Pære", "Æble", "Banan"];
 // frugter[0] = "Fersken";
 // console.log(frugter);
 
-console.log(frugter.length);
+// console.log(frugter.length);
+
+frugter[3] = "Appelsin";
+console.log(frugter);
