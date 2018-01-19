@@ -19,16 +19,31 @@
 // let result = boolean ? "True" : "False";
 // console.log(result);
 
+// let laeskedrik = "sunjoy";
+// if(laeskedrik == "cola"){
+//     console.log("Taste this feeling");
+// }
+// else if(laeskedrik == "sunjoy") {
+//     console.log("Slukker tørsten");
+// }
+// else if(laeskedrik == "kingsway") {
+//     console.log("Represent");
+// }
+// else {
+//     console.log("Sur nums");
+// }
+
 let laeskedrik = "sunjoy";
-if(laeskedrik == "cola"){
-    console.log("Taste this feeling");
-}
-else if(laeskedrik == "sunjoy") {
-    console.log("Slukker tørsten");
-}
-else if(laeskedrik == "kingsway") {
-    console.log("Represent");
-}
-else {
-    console.log("Sur nums");
+switch(laeskedrik){
+    case "cola":
+        console.log("Taste this feeling");
+        break;
+    case "sunjoy":
+        console.log("Slukker tørsten");
+        break;
+    case "kingsway":
+        console.log("Represent");
+        break;
+    default:
+        console.log("Sur nums")
 }
