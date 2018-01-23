@@ -7,17 +7,26 @@
 // forste %= anden;
 // console.log(forste);
 
+// let navn = "Mads";
+// let efternavn = "Larsen";
+// if(navn ==   "Mads" && efternavn == "Larsen"){
+//     console.log("if");
+// }
+// else {
+//     console.log("else");
+// }
+// let x = 20;
+// let y = 7;
+// if(x > y && 5 < y){
+//     console.log("if");
+// }
+// else {
+//     console.log("else");
+// }
+
 let navn = "Mads";
-let efternavn = "Larsen";
-if(navn ==   "Mads" && efternavn == "Larsen"){
-    console.log("if");
-}
-else {
-    console.log("else");
-}
-let x = 20;
-let y = 7;
-if(x > y && 5 < y){
+let efternavn = "Laursen";
+if(navn ==   "Mads" || efternavn == "Larsen"){
     console.log("if");
 }
 else {
