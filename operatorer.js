@@ -5,4 +5,4 @@
 let forste = 39;
 let anden = 11;
 forste %= anden;
-console.log(forste)
+console.log(forste);
