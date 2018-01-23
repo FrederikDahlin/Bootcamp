@@ -1,9 +1,9 @@
 
-// for (let i = 1; i < 26; i++){
+// for (let i = 1; i <= 25; i++){
 //     console.log(i)
 // }
 // let i = 1;
-// while (i < 26) {
+// while (i <= 25) {
 //     console.log(i);
 //     i++;
 // }
@@ -12,4 +12,19 @@
 //     console.log(i);
 //     i++;
 // } 
-// while (i < 26); 
+// while (i <= 25); 
+
+// for (let i = 2017; i >= 1917; i--){
+//     console.log(i);
+// }
+
+// ------- Virker ikke ordenligt
+// let dage = [["Mandag"],["Tirsdag"],["Onsdag"],["Torsdag"],["Fredag"],["Lørdag"],["Søndag"]];
+// for (dage[0]; dage <= dage[6]; dage++){
+//     console.log(dage);
+// }
+
+let dage = ["Mandag","Tirsdag","Onsdag","Torsdag","Fredag","Lørdag","Søndag"];
+for (let i = 0; i <= dage.length - 1; i++){
+    console.log(dage[i])
+}
