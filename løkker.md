@@ -8,11 +8,11 @@
        console.log(i)
     }
 
-    // for (Køres før løkken; Definer hvad og hvor meget; Hvad skal gøres) {
-    //     console.log(Variabel)
-    // }
+    for (Køres før løkken; Definer hvad og hvor meget; Hvad skal gøres) {
+        console.log(Variabel)
+    }
 ```
 
 ```javascript
-    
+
 ```
