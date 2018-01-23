@@ -24,7 +24,12 @@
 //     console.log(dage);
 // }
 
-let dage = ["Mandag","Tirsdag","Onsdag","Torsdag","Fredag","Lørdag","Søndag"];
-for (let i = 0; i <= dage.length - 1; i++){
-    console.log(dage[i])
-}
+// let dage = ["Mandag","Tirsdag","Onsdag","Torsdag","Fredag","Lørdag","Søndag"];
+// for (let i = 0; i <= dage.length - 1; i++){
+//     console.log(dage[i])
+// }
+
+let navne = ["Lukas","Mads","Lars","Patrick","Magnus","Poul","Rasmus","Anders"];
+navne.forEach(function(navn){
+    console.log(navn);
+})
