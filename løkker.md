@@ -24,5 +24,7 @@
     while (x <= 5);
 ```
 Samme princip, der er variabel *x* med en start værdi. 
+
 *do* sender *x* til console, og ligger +1 til *x*.
+
 *while* smider *x* i en løkke, til og med 5.
