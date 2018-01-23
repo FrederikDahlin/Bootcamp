@@ -29,7 +29,13 @@
 //     console.log(dage[i])
 // }
 
-let navne = ["Lukas","Mads","Lars","Patrick","Magnus","Poul","Rasmus","Anders"];
-navne.forEach(function(navn){
-    console.log(navn);
+// let navne = ["Lukas","Mads","Lars","Patrick","Magnus","Poul","Rasmus","Anders"];
+// navne.forEach(function(navn){
+//     console.log(navn);
+// })
+
+console.log("Her er mine favorit kunstnere i rækkefølge")
+let fame = ["Gorillaz","Post Malone","Eminem","G-Eazy"];
+fame.forEach(function(navn, index){
+    console.log(navn + " er nummer " + index)
 })
