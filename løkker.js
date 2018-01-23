@@ -34,8 +34,21 @@
 //     console.log(navn);
 // })
 
-console.log("Her er mine favorit kunstnere i rækkefølge")
-let fame = ["Gorillaz","Post Malone","Eminem","G-Eazy"];
-fame.forEach(function(navn, index){
-    console.log(navn + " er nummer " + index)
+// console.log("Her er mine favorit kunstnere i rækkefølge")
+// let fame = ["Gorillaz","Post Malone","Eminem","G-Eazy"];
+// fame.forEach(function(navn, index){
+//     console.log(navn + " er nummer " + index)
+// })
+
+let i = [2,7,33,66,40,59,349,12,99,3];
+i.forEach(function(tal, index, arr){
+    if (tal < arr[index + 1]) {
+        console.log(tal + " er lavere end " + arr[index + 1])
+    }
+    else if (tal > arr[index + 1]){
+        console.log(tal + " er højere end " + arr[index + 1])
+    }
+    else {
+        console.log("Slut")
+    }
 })
